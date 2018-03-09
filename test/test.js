@@ -2,7 +2,7 @@ const lib = require('../src');
 
 describe('SUM Tests', () => {
   test('should return 10', (done) => {
-    expect(lib.sum(5, 5)).toBe(10);
+    expect(lib.sum(5, 5)).toBe(0);
     done();
   });
 });
