@@ -1,12 +1,16 @@
 {
   "name": "live-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Live about Node.js.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/live-node#readme",
-  "keywords": ["node"],
+  "keywords": [
+    "node"
+  ],
   "main": "src/index.js",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "coverage": "jest --colors --coverage",
     "demo": "nodemon demo/demo.js",
